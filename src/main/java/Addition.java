@@ -7,7 +7,7 @@ public class Addition {
         {
             if(value.charAt(i)!=value.charAt(value.length()-1-i))
             {
-                return false;
+                return true;
             }
         }
         return true;
